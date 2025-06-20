@@ -5,15 +5,33 @@
   list-style: none;
   text-decoration: none;
   font-family: "Inter", sans-serif;
-  /* padding-inline: 11.86%; */
 }
 body {
   color: #6a6a6a;
 }
 
-.section1 {
+/* by EB START */
+header,
+footer,
+section {
+  padding-inline: 11.86% !important;
+}
+
+.main-header {
+  padding: 60px;
+  border: 1px solid #000;
+}
+
+.header,
+.hero {
   background-color: #a3a380;
 }
+
+.hero {
+  padding: 132px;
+}
+
+/* by EB END */
 
 .recommended {
   background-color: #efebce4d;
@@ -46,7 +64,7 @@ button {
   border: 0px;
 }
 
-with-right-margin {
+.with-right-margin {
   margin-left: 14px;
 }
 
@@ -77,11 +95,13 @@ with-right-margin {
   justify-content: space-between;
 }
 
-.header {
-  padding-inline: 11.86%;
-  margin-bottom: 8.8%;
-}
-
 .section-hero {
   padding-inline: 11.86%;
 }
+/* by EB START */
+
+.recent-blogs-header {
+  display: flex;
+  justify-content: space-between;
+}
+/* by EB END */
